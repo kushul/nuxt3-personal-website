@@ -1,0 +1,94 @@
+//responsive
+$desktop: 1300px;
+$tablet: 1024px;
+$tablet-portrait: 768px;
+$mobile: 480px;
+
+:root {
+     /* Colours */
+  --blue: #3eb0ef;
+  --purple: #ad26b4;
+  --red: #f05230;
+  --darkgray: #171515;
+  --midgray: #738a94;
+  --lightgrey: #c5d2d9;
+  --whitegray: #e5eff5;
+  --pink: #fa3a57;
+  --brown: #a3821a;
+  --dark-bg: #020b1a;
+  --yellow-sun:  #fecd35; 
+  --coffee: #D0BB94;
+    //Layout
+    --gutter: 15px;
+  
+    //fonts
+    --font-roboto: "Roboto", sans-serif;
+  
+    --font-oswald: 'Oswald', sans-serif;;
+  
+    --header-height: 250px;
+
+
+  }
+
+  .dark-mode {
+    --bg-background-primary: #00162B;
+    --bg-background-secondary: rgba(1, 15, 28, 0.5);
+    --bg-background-invert: #fff;
+    --text-copy-primary: #e2e8f0;
+    --text-copy-invert: #1A202C;
+    --border-copy-invert: #1A202C;
+    --text-copy-secondary: #a9c7df;
+    --green: #48BB78;
+  }
+  .light-mode {
+    --bg-background-primary: #EDF2F7;
+    --bg-background-secondary: rgba(191, 191, 191, 0.3);
+    --bg-background-invert: #1A202C;
+    --text-copy-primary: #2D3748;
+    --text-copy-invert: #fff;
+    --border-copy-invert: rgb(165, 154, 154);
+    --text-copy-secondary: #2A4365;
+    --green: #38A169;
+  }
+  .sepia-mode {
+    --bg-background-primary: #f1e7d0;
+    --bg-background-secondary: rgba(120, 60, 0, .4);
+    --bg-background-invert: #1A202C;
+    --text-copy-primary: #744210;
+    --text-copy-invert: #fff;
+    --border-copy-invert: #fff;
+    --text-copy-secondary: #9C4221;
+    --green: #2F855A;
+  }
+
+
+  // .theme-light {
+
+  //   // background
+  //   --bg-background-primary: #f7fafc;
+  //   --bg-background-secondary: #f7fafc;
+  //   --bg-background-invert: #000;
+
+  //   // text
+  //   --text-copy-primary: #000;
+  //   --text-copy-invert: #fff;
+  // }
+
+  // .theme-dark {
+  //   --bg-background-primary: #0d2234;
+  //   --bg-background-secondary: #102C44;
+  //   --bg-background-invert: #fff;
+
+  //   --text-copy-primary: #fff;
+  //   --text-copy-invert: #2D3748;
+  // }
+
+  // .theme-sepia {
+  //   --bg-background-primary: #FFFAF0;
+  //   --bg-background-secondary: #FFFAF0;
+  //   --bg-background-invert: #000;
+
+  //   --text-copy-primary: #433422;
+  //   --text-copy-invert: #fff;
+  // }

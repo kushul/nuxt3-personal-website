@@ -1,0 +1,79 @@
+  // dark mode
+  
+  .dark-mode {
+   
+
+    .color-mode {
+                button {
+                    background: var(--darkgray);
+                    &:hover {
+                        color: var(--whitegray);
+                        box-shadow: 0 0 15px var(--whitegray);
+                        text-shadow: 0 0 15px var(--whitegray);
+            
+                        &::before {
+                          box-shadow: 0 0 15px var(--whitegray);
+                        }
+                      }
+                }
+    }
+  }
+
+
+  // light mode
+  
+  .light-mode {
+   
+
+    .color-mode {
+                button {
+                    @apply bg-gray-800;
+                    svg {
+                        fill: #4A5568;
+                    }
+                    &:hover {
+                        color: var(--yellow-sun);
+                        box-shadow: 0 0 15px var(--yellow-sun);
+                        text-shadow: 0 0 15px var(--yellow-sun);
+
+                        svg {
+                            transition: 0.5s;
+                            fill: var(--yellow-sun);
+                        }
+            
+                        &::before {
+                          box-shadow: 0 0 15px var(--yellow-sun);
+                        }
+                      }
+        }
+    }
+  }
+
+  // sepia-mode
+  
+  .sepia-mode {
+   
+    .color-mode {
+                button {
+                    @apply bg-yellow-900;
+                    svg {
+                        fill: #FEFCBF;
+                    }
+                    &:hover {
+                        color: var(--coffee);
+                        box-shadow: 0 0 15px var(--coffee);
+                        text-shadow: 0 0 15px var(--coffee);
+
+                        svg {
+                            transition: 0.5s;
+                            fill: var(--coffee);
+                        }
+            
+                        &::before {
+                          box-shadow: 0 0 15px var(--coffee);
+                        }
+                      }
+            }
+    }
+   
+  }

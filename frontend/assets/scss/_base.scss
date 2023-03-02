@@ -1,0 +1,62 @@
+.card-shadow {
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);
+}
+
+.blog-shadow {
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.4); 
+}
+
+.section-gap {
+    margin: 50px auto;
+}
+
+.title {
+    font-family: var(--font-oswald);
+    letter-spacing: 5px;
+    @apply text-2xl text-center pt-8 pb-3 font-semibold;
+}
+
+.subtitle {
+    @apply text-xl text-center mb-6;
+}
+
+.page-title {
+    font-family: var(--font-oswald);
+    letter-spacing: 5px;
+    @apply text-2xl font-bold text-left mb-3;
+}
+
+.page-subtitle {
+    @apply text-base font-medium text-left mb-8;
+}
+
+
+@screen sm {
+    .title {
+        @apply text-3xl pt-10;
+    }
+    .subtitle {
+        @apply text-xl mb-8;
+    }
+    .page-title {
+        @apply text-3xl;
+    }
+    .page-subtitle {
+        @apply text-lg;
+    }
+}
+
+@screen lg {
+    .title {
+        @apply text-5xl pt-16;
+    }
+    .subtitle {
+        @apply text-3xl mb-12;
+    }
+    .page-title {
+        @apply text-4xl;
+    }
+    .page-subtitle {
+        @apply text-xl;
+    }
+}
