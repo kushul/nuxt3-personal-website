@@ -1,5 +1,8 @@
 {
   "private": true,
+  "name": "kushul",
+  "description": "Kushul Soomaree personal website",
+  "author": "Kushul Soomaree",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
