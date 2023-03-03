@@ -1,3 +1,9 @@
+<template>
+<div class="home-main-intro container mx-auto">
+    <h1>Homepage</h1>
+    <SocialMedia />
+</div>
+</template>
 <script setup>
 const runtimeConfig = useRuntimeConfig()
 </script>
