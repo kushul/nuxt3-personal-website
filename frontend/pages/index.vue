@@ -1,7 +1,6 @@
 <template>
 <div class="home-main-intro container mx-auto">
-    <h1>Homepage</h1>
-    <SocialMedia />
+    <HomeMainIntro />
 </div>
 </template>
 <script setup>
