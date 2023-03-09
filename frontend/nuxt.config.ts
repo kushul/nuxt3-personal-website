@@ -31,5 +31,14 @@ export default defineNuxtConfig({
 
         '@/assets/scss/main.scss',
     ],
-    modules: ['@nuxtjs/tailwindcss']
+    modules: ['@nuxtjs/tailwindcss'],
+    postcss: {
+        plugins: {
+            'postcss-color-function': {},
+            'postcss-url': false,
+            tailwindcss: 'tailwind.config.js',
+            'postcss-nested': {},
+            'postcss-hexrgba': {}
+        },
+    },
 })
