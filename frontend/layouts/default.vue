@@ -1,9 +1,10 @@
 <template>
     <div class="bg-background-primary text-copy-primary flex min-h-screen flex-col content-wrapper font-display">
-        <MenuSection />
+        <!-- <MenuSection /> -->
         <!-- <input type="checkbox" class="theme-switch" v-model="darkmode" /> -->
-        <nuxt class="flex-grow" />
-        <FooterSection />
+        <slot class="flex-grow" />
+        <!-- <FooterSection /> -->
+        <!-- <Logo /> -->
     </div>
 </template>
 
