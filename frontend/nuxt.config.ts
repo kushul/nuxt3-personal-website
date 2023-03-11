@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         pageTransition: { name: 'page', mode: 'out-in' }
     },
     css: [
-
+        '@/assets/css/screen.css',
         '@/assets/scss/main.scss',
     ],
     modules: ['@nuxtjs/tailwindcss'],
