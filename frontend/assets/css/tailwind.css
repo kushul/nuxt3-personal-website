@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    src: url('/fonts/nunito/Nunito-Light.ttf') format('ttf'),
+    url('/fonts/nunito/Nunito-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-family: 'Nunito';
+}
+
+@font-face {
+    src: url('/fonts/nunito/Nunito-Regular.ttf') format('ttf'),
+    url('/fonts/nunito/Nunito-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-family: 'Nunito';
+}
+
+@font-face {
+    src: url('/fonts/nunito/Nunito-SemiBold.ttf') format('ttf'),
+    url('/fonts/nunito/Nunito-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-family: 'Nunito';
+}
+
+@font-face {
+    src: url('/fonts/nunito/Nunito-Bold.ttf') format('ttf'),
+    url('/fonts/nunito/Nunito-BoldItalic.ttf') format('ttf');
+    font-weight: 800;
+    font-family: 'Nunito';
+}
