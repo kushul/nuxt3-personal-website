@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-
     runtimeConfig: {
         // The private keys which are only available server-side
         apiSecret: '123',
@@ -28,7 +27,7 @@ export default defineNuxtConfig({
         pageTransition: { name: 'page', mode: 'out-in' }
     },
     css: [
-        '@/assets/css/screen.css',
+        '@/assets/css/screen.scss',
         '@/assets/scss/main.scss',
     ],
     modules: ['@nuxtjs/tailwindcss'],

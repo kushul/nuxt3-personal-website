@@ -99,7 +99,7 @@ article {
     position: relative;
     color: var(--green);
 
-    &:after {
+    /* &:after {
       content: '';
       height: 2px;
       background: linear-gradient(90deg, var(--blue), var(--green));
@@ -108,7 +108,7 @@ article {
       bottom: -2px;
       left: 0;
       border-radius: 2px;
-    }
+    } */
   }
 
   a:hover {
@@ -264,9 +264,9 @@ article {
   text-transform: uppercase;
   flex-wrap: wrap;
 
-  a:after {
+  /* a:after {
     height: 0;
-  }
+  } */
 }
 
 .post-full-meta-date {
@@ -538,14 +538,14 @@ Usage (In Ghost editor):
 .post-full-content pre ::selection {
   color: color(var(--midgrey) l(-25%));
 }
-/* 
+/*
 .post-full-content pre code {
   padding: 0;
   font-size: inherit;
   line-height: inherit;
   background: transparent;
 } */
-/* 
+/*
 .post-full-content pre code :not(span) {
   color: inherit;
 } */
