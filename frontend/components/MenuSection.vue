@@ -130,13 +130,13 @@
         <nuxt-link :to="{name: 'index'}" @click.native="resetMenu()">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="{name: 'blog'}" @click.native="resetMenu()">Blog</nuxt-link>
+        <!-- <nuxt-link :to="{name: 'blog'}" @click.native="resetMenu()">Blog</nuxt-link> -->
       </li>
       <li>
-        <nuxt-link :to="{name: 'projects'}" @click.native="resetMenu()">Projects</nuxt-link>
+        <!-- <nuxt-link :to="{name: 'projects'}" @click.native="resetMenu()">Projects</nuxt-link> -->
       </li>
       <li>
-        <nuxt-link :to="{name: 'events'}" @click.native="resetMenu()">Events</nuxt-link>
+        <!-- <nuxt-link :to="{name: 'events'}" @click.native="resetMenu()">Events</nuxt-link> -->
       </li>
       <li class="color-mode desktop-only">
         <button class="text-gray-800 ma-0" @click="toggleTheme()">
