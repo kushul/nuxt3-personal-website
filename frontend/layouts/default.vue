@@ -3,7 +3,7 @@
         <MenuSection />
         <!-- <input type="checkbox" class="theme-switch" v-model="darkmode" /> -->
         <slot class="flex-grow" />
-        <!-- <FooterSection /> -->
+        <FooterSection />
         <!-- <Logo /> -->
     </div>
 </template>

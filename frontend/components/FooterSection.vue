@@ -1,17 +1,16 @@
 <template>
     <div class="
-          container
           bg-background-invert
           text-copy-invert
           flex
           justify-center
           items-center
-          mx-auto
           text-sm
           sm:py-6
           py-3
           mt-2
           tracking-wide
+          w-full
         ">
         <div class="text-copy-invert mx-4 font-bold text-sm flex text-sm tagline">
             © 2022
@@ -20,13 +19,13 @@
 
         <ul class="menu flex justify-end">
             <li class="kush-footer-item">
-                <nuxt-link :to="{ name: 'blog' }">Blogs</nuxt-link>
+                <!-- <nuxt-link :to="{ name: 'blog' }">Blogs</nuxt-link> -->
             </li>
             <li class="kush-footer-item">
-                <nuxt-link :to="{ name: 'events' }">Events</nuxt-link>
+                <!-- <nuxt-link :to="{ name: 'events' }">Events</nuxt-link> -->
             </li>
             <li class="kush-footer-item">
-                <nuxt-link :to="{ name: 'projects' }">Projects</nuxt-link>
+                <!-- <nuxt-link :to="{ name: 'projects' }">Projects</nuxt-link> -->
             </li>
         </ul>
     </div>
