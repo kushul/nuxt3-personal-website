@@ -1,5 +1,5 @@
 <template>
-<div class="home-main-intro container mx-auto">
+<div class="home-main-containe">
     <HomeMainIntro />
     <div class="bg-background-secondary pb-16">
         <h1 class="title">Skills & Expertise</h1>

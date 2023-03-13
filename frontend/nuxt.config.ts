@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     css: [
         '@/assets/css/screen.scss',
         '@/assets/scss/main.scss',
-        '@/assets/css/tailwind.css',
+        // '@/assets/css/tailwind.css',
     ],
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
     colorMode: {
