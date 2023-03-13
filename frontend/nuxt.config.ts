@@ -29,8 +29,22 @@ export default defineNuxtConfig({
     css: [
         '@/assets/css/screen.scss',
         '@/assets/scss/main.scss',
+        '@/assets/css/tailwind.css',
     ],
-    modules: ['@nuxtjs/tailwindcss'],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+    colorMode: {
+        preference: 'dark', // default value of $colorMode.preference
+        fallback: 'light', // fallback value if not system preference found
+        hid: 'nuxt-color-mode-script',
+        globalName: '__NUXT_COLOR_MODE__',
+        componentName: 'ColorScheme',
+        // cookie: {
+        //   key: 'nuxt-color-mode',
+        //   options: {
+        //     path: nuxt.options.router.base // https://nuxtjs.org/api/configuration-router#base
+        //   }
+        // }
+    },
     postcss: {
         plugins: {
             'postcss-color-function': {},
