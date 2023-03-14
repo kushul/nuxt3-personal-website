@@ -54,4 +54,5 @@ export default defineNuxtConfig({
             'postcss-hexrgba': {}
         },
     },
+    plugins: [{ src: "@/plugins/vuetimeline.js" }, { src: "@/plugins/main.js" }],
 })
