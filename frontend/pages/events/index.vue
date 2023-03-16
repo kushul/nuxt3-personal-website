@@ -269,12 +269,12 @@ export default {
     methods: {
          getImageUrl(name) {
             if (name) {
-                return new URL(`@/assets/images/events/${name}`, import.meta.url).href
+                return `/images/events/${name}`
             }
         },
          findImage(name) {
             if (name) {
-                return new URL(`~/assets/images/icon/${name}`, import.meta.url).href
+                return `/images/icon/${name}`
             }
         },
     },

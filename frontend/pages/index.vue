@@ -37,7 +37,7 @@
               </h2>
               <img
                 class="md:w-20 sm:w-12 w-8"
-                src="findImage(tagline.image)"
+                :src="findImage(tagline.image)"
                 alt="creative"
               />
             </div>
@@ -132,12 +132,11 @@ const taglines: ITagline[] = [
   },
 ]
 
-// function findImage(string: name) {
-//   if (name) {
-//     const result = require(`~/assets/images/icon/${name}`)
-//     return result
-//   }
-// }
+function findImage(image : string) {
+  if (image) {
+    return `/images/icon/${image}`
+  }
+}
 
 </script>
 <style>
