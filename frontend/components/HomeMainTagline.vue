@@ -5,6 +5,7 @@
         <div class="works__pulse-bg"></div>
         <div class="works__pulse-bg"></div>
         <div class="dots dots-top">
+
             <div class="dots__dot vertical" v-for="index in 6" :key="index"></div>
         </div>
         <div class="dots dots-bottom">
